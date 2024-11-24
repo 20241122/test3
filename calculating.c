@@ -14,6 +14,7 @@ int main(void) {
 int select_menu(void) {
     int i = 0;
     do {
+        printf("이 프로그램은 덧셈, 뺄셈, 곱셈, 나눗셈을 할 수 있는 계산기 입니다.");
         printf("다음 메뉴 번호를 선택하세요.\n");
         printf("1 : 덧셈\n");
         printf("2 : 뺄셈\n");

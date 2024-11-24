@@ -29,13 +29,13 @@ void backward(char in[], char out[]) {
 int main(void) {
     char in[100], out[100], backwardin[100], backwardout[100];
     int i;
-    printf("ì•ŒíŒŒë²³ìœ¼ë¡œ ëœ ë¬¸ìì—´ì„ ì…ë ¥í•˜ì‹œì˜¤.: ");
-    printf("ì´ í”„ë¡œê·¸ë¨ì€ ì•ŒíŒŒë²³ìœ¼ë¡œ ëœ ë¬¸ìì—´ì˜ ëŒ€ì†Œë¬¸ì, ìˆœì„œë¥¼ ë³€í™˜í•˜ëŠ” í”„ë¡œê·¸ë¨ì…ë‹ˆë‹¤.");
+    printf("ÀÌ ÇÁ·Î±×·¥Àº ¾ËÆÄºªÀ¸·Î µÈ ¹®ÀÚ¿­ÀÇ ´ë¼Ò¹®ÀÚ, ¼ø¼­¸¦ º¯È¯ÇÏ´Â ÇÁ·Î±×·¥ÀÔ´Ï´Ù.");
+    printf("¾ËÆÄºªÀ¸·Î µÈ ¹®ÀÚ¿­À» ÀÔ·ÂÇÏ½Ã¿À.: ");
     scanf("%s", in);
     caseconv(in, out);
-    printf("ëŒ€ì†Œë¬¸ì ë³€í™˜: %s\n", out);
+    printf("´ë¼Ò¹®ÀÚ º¯È¯: %s\n", out);
     for(i = 0; i < 100 ; i++)
         backwardin[i] = out[i] ;
     backward(backwardin, backwardout);
-    printf("ìˆœì„œ ë³€í™˜: %s\n", backwardout);
+    printf("¼ø¼­ º¯È¯: %s\n", backwardout);
 }
